@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://assets/character/SubZero/002.png" type="Texture" id=1]
 [ext_resource path="res://assets/character/SubZero/016.png" type="Texture" id=2]
@@ -19,7 +19,25 @@
 [ext_resource path="res://assets/character/SubZero/036.png" type="Texture" id=17]
 [ext_resource path="res://SubZero.gd" type="Script" id=18]
 
-[sub_resource type="SpriteFrames" id=1]
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+uniform sampler2D diffuse;
+
+void fragment () 
+{
+	vec4 col = texture(TEXTURE, UV);
+	if(col.r == 1.0 && col.b == 1.0 && col.g == 0.0) 
+	{
+		col.a = 0.0;
+	}
+	COLOR = col;
+}"
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = SubResource( 1 )
+
+[sub_resource type="SpriteFrames" id=3]
 animations = [ {
 "frames": [ ExtResource( 5 ), ExtResource( 1 ), ExtResource( 10 ), ExtResource( 1 ) ],
 "loop": true,
@@ -62,19 +80,21 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="RectangleShape2D" id=2]
+[sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 25.484, 55.852 )
 
 [node name="SubZero" type="KinematicBody2D"]
 script = ExtResource( 18 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+material = SubResource( 2 )
 position = Vector2( 0.148651, -0.44545 )
-frames = SubResource( 1 )
+frames = SubResource( 3 )
 animation = "walk_forward"
-frame = 4
+frame = 3
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2( 0.472473, -0.629959 )
-shape = SubResource( 2 )
+shape = SubResource( 4 )
