@@ -1,0 +1,38 @@
+=chain=
+=end=
+
+=throw=
+2+f 129 N 20
+3+f 129 N 20
+5+f 129 N 20
+6+f 129 N 20
+2+b 129 N 20
+3+b 129 N 20
+5+b 129 N 20
+6+b 129 N 20
+end -1 x -1
+
+=special=
+1fd 101 N
+2fd 101 N
+3fd 101 N
+
+4fd 112 N
+5fd 113 N
+6fd 114 N
+
+4bd 117 N
+5bd 118 N
+6bd 119 N
+end -1 x
+
+=cspecial=
+end -1 x
+
+=super=
+pfd 120 N 1
+!name Uppercut_Genesis
+end -1 x -1
+
+=end=
+

@@ -1,0 +1,79 @@
+=sounds=
+characters\dc\swing1.wav
+characters\dc\swing2.wav
+characters\dc\swing3.wav
+characters\dc\mnhit1.wav
+characters\dc\mnhit2.wav
+characters\dc\mnhit3.wav
+characters\dc\grab.wav
+characters\dc\rush.wav
+characters\dc\mksuper2.wav
+characters\dc\mnthrow.wav
+characters\dc\afterupper.wav
+characters\dc\outstanding.wav
+characters\dc\excellent.wav
+characters\dc\steps.wav
+characters\dc\comehere.wav
+characters\dc\getover.wav
+characters\dc\hookshot.wav
+characters\dc\speared.wav
+characters\dc\telepnch.wav
+characters\dc\freezein.wav
+characters\dc\shatter.wav
+characters\dc\slide.wav
+characters\dc\unmask.wav
+characters\dc\ignite.wav
+characters\dc\toasty.wav
+characters\dc\whoosh2.wav
+characters\dc\frosty.wav
+=end=
+
+=fxdef=
+!sound 130 0 6 -1
+!sound 130 9 9 -1
+
+!sound 56 0 7 -1
+!sound 57 0 7 -1
+
+!sound 400 3 10 11 12 -1
+
+!sound 102 1 19 -1
+!sound 103 0 20 -1
+!sound 104 2 20 -1
+
+!sound 112 0 21 -1
+!sound 113 0 21 -1
+!sound 114 0 21 -1
+
+!sound 202 1 16 -1
+!sound 204 1 17 -1
+!sound 201 1 14 15 -1
+
+!sound 210 0 18 -1
+
+!sound 116 0 8 -1
+!sound 116 27 25 -1
+!sound 116 27 26 -1
+
+!sound 177 0 19 -1
+!sound 179 0 19 -1
+!sound 180 0 19 -1
+
+!sound 120 0 8 -1
+!sound 121 3 10 11 12 -1
+
+!sound 122 0 8 -1
+!sound 122 27 25 -1
+!sound 122 27 26 -1
+
+!hurtsound  0 0 3 100 -1
+!hurtsound  5 3 4 -1
+!hurtsound 10 3 4 -1
+!hurtsound 15 4 5 -1
+!hurtsound 20 4 5 -1
+
+!atksound 0 0 0 1 2 -1
+
+=end=
+
+=end=

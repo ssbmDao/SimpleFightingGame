@@ -1,0 +1,291 @@
+255 0 255
+=image=
+Characters\subzero\001.png
+Characters\subzero\002.png
+Characters\subzero\003.png
+Characters\subzero\004.png
+Characters\subzero\005.png
+Characters\subzero\006.png
+Characters\subzero\007.png
+Characters\subzero\008.png
+Characters\subzero\009.png
+Characters\subzero\010.png
+Characters\subzero\011.png
+Characters\subzero\012.png
+Characters\subzero\013.png
+Characters\subzero\014.png
+Characters\subzero\015.png
+Characters\subzero\016.png
+Characters\subzero\017.png
+Characters\subzero\018.png
+Characters\subzero\019.png
+Characters\subzero\020.png
+Characters\subzero\021.png
+Characters\subzero\022.png
+Characters\subzero\023.png
+Characters\subzero\024.png
+Characters\subzero\025.png
+Characters\subzero\026.png
+Characters\subzero\027.png
+Characters\subzero\028.png
+Characters\subzero\029.png
+Characters\subzero\030.png
+Characters\subzero\031.png
+Characters\subzero\032.png
+Characters\subzero\033.png
+Characters\subzero\034.png
+Characters\subzero\035.png
+Characters\subzero\036.png
+Characters\subzero\037.png
+Characters\subzero\038.png
+Characters\subzero\039.png
+Characters\subzero\040.png
+Characters\subzero\041.png
+Characters\subzero\042.png
+Characters\subzero\043.png
+Characters\subzero\044.png
+Characters\subzero\045.png
+Characters\subzero\046.png
+Characters\subzero\047.png
+Characters\subzero\048.png
+Characters\subzero\049.png
+Characters\subzero\050.png
+Characters\subzero\051.png
+Characters\subzero\052.png
+Characters\subzero\053.png
+Characters\subzero\054.png
+Characters\subzero\055.png
+Characters\subzero\056.png
+Characters\subzero\057.png
+Characters\subzero\058.png
+Characters\subzero\059.png
+Characters\subzero\060.png
+Characters\subzero\061.png
+Characters\subzero\062.png
+Characters\subzero\063.png
+Characters\subzero\064.png
+Characters\subzero\065.png
+Characters\subzero\066.png
+Characters\subzero\067.png
+Characters\subzero\068.png
+Characters\subzero\069.png
+Characters\subzero\070.png
+Characters\subzero\071.png
+Characters\subzero\072.png
+Characters\subzero\073.png
+Characters\subzero\074.png
+Characters\subzero\075.png
+Characters\subzero\076.png
+Characters\subzero\077.png
+Characters\subzero\078.png
+Characters\subzero\079.png
+Characters\subzero\080.png
+Characters\subzero\081.png
+Characters\subzero\082.png
+Characters\subzero\083.png
+Characters\subzero\084.png
+Characters\subzero\085.png
+Characters\subzero\086.png
+Characters\subzero\087.png
+Characters\subzero\088.png
+Characters\subzero\089.png
+Characters\subzero\090.png
+Characters\subzero\091.png
+Characters\subzero\092.png
+Characters\subzero\093.png
+Characters\subzero\094.png
+Characters\subzero\095.png
+Characters\subzero\096.png
+Characters\subzero\097.png
+Characters\subzero\098.png
+Characters\subzero\300.png
+Characters\subzero\301.png
+Characters\subzero\302.png
+Characters\subzero\303.png
+Characters\subzero\304.png
+Characters\subzero\305.png
+Characters\subzero\306.png
+Characters\subzero\307.png
+Characters\subzero\308.png
+Characters\subzero\309.png
+Characters\subzero\310.png
+Characters\subzero\311.png
+Characters\subzero\312.png
+Characters\subzero\313.png
+Characters\subzero\314.png
+Characters\subzero\315.png
+Characters\subzero\316.png
+Characters\subzero\317.png
+Characters\subzero\318.png
+Characters\subzero\319.png
+Characters\subzero\320.png
+Characters\subzero\500.png
+Characters\subzero\501.png
+Characters\subzero\502.png
+Characters\subzero\503.png
+Characters\subzero\504.png
+Characters\subzero\505.png
+Characters\subzero\506.png
+=sprite=
+0  0  -26  -1
+1  1  -25  -1
+2  2  -25  -1
+3  3  -21  -1
+4  4  -27  -1
+5  5  -27  -1
+6  6  -27  -1
+7  7  -25  -7
+8  8  -25  3
+9  9  -26  24
+10  10  -26  -1
+11  11  -28  -1
+12  12  -23  25
+13  13  -20  -1
+14  14  -21  -1
+15  15  -20  -1
+16  16  -27  -1
+17  17  -20  -1
+18  18  -20  -1
+19  19  -20  -1
+20  20  -40  -1
+21  21  -42  -1
+22  22  -43  -1
+23  23  -29  -1
+24  24  -13  -1
+25  25  -13  -1
+26  26  -5  -1
+27  27  -12  -1
+28  28  -20  -1
+29  29  -20  -3
+30  30  -23  -1
+31  31  -21  -1
+32  32  -28  -11
+33  33  -29  -10
+34  34  -27  -1
+35  35  -20  -1
+36  36  -18  -7
+37  37  -23  22
+38  38  -72  30
+39  39  -13  13
+40  40  -20  5
+41  41  -24  37
+42  42  -37  25
+43  43  -22  -1
+44  44  -9  -1
+45  45  -22  -1
+46  46  -20  -1
+47  47  -23  -1
+48  48  -24  -1
+49  49  -24  -1
+50  50  -22  -1
+51  51  -17  15
+52  52  -17  15
+53  53  -17  15
+54  54  -17  15
+55  55  -16  43
+56  56  -15  71
+57  57  -4  33
+58  58  -4  33
+59  59  -4  32
+60  60  -7  55
+61  61  2  54
+62  62  14  53
+63  63  26  57
+64  64  33  -8
+65  65  57  -4
+66  66  -37  -1
+67  67  -30  -2
+68  68  -63  23
+69  69  -46  1
+70  70  -47  -2
+71  71  -35  -7
+72  72  -28  -6
+73  73  -20  -4
+74  74  -15  -2
+75  75  -22  -5
+76  76  22  46
+77  77  26  48
+78  78  28  48
+79  79  35  2
+80  80  64  49
+81  81  64  48
+82  82  64  35
+83  83  64  38
+84  84  64  36
+85  85  64  35
+86  86  64  38
+87  87  64  36
+88  88  64  35
+89  89  64  38
+90  90  64  64
+91  91  64  70
+92  92  -36  0
+93  93  -33  0
+94  94  -33  0
+95  95  -23  -1
+96  96  -15  -1
+97  97  -265  67
+98  98  -25  -1
+99  99  -24  -1
+100  100  -22  -1
+101  101  -32  -2
+102  102  -27  -1
+103  103  -27  -1
+104  104  -27  -1
+105  105  -27  -1
+106  106  -27  -1
+107  107  -27  -1
+108  108  -19  -1
+109  109  -19  -1
+110  110  -21  -1
+111  111  -9  -1
+112  112  -7  -1
+113  113  -21  -1
+114  114  -21  -1
+115  115  -15  -2
+116  116  -35  -1
+117  117  -27  -1
+118  118  -42  -1
+119  119  -23  -1
+120  120  -28  -1
+121  121  -29  -1
+122  122  -31  1
+123  123  -32  3
+124  124  -42  -3
+125  125  -56  -4
+500  119  -23  -1
+501  120  -28  -1
+502  120  -28  -1
+503  120  -28  -1
+504  120  -28  -1
+510  121  -29  -1
+511  122  -31  -1
+512  122  -31  -1
+513  122  -31  -1
+514  122  -31  -1
+520  121  -29  -1
+521  122  -31  -1
+522  122  -31  -1
+523  122  -31  -1
+524  122  -31  -1
+530  123  -32  3
+531  124  -42  -3
+532  124  -42  -3
+533  124  -42  -3
+534  124  -42  -3
+540  123  -32  3
+541  124  -42  -3
+542  124  -42  -3
+543  124  -42  -3
+544  124  -42  -3
+550  123  -32  3
+551  124  -42  -3
+552  124  -42  -3
+553  124  -42  -3
+554  124  -42  -3
+580  119  -23  -1
+590  125  -56  -4
+595  124  -42  -3
+-1
+
+-=File Generated by UFGE edit=-

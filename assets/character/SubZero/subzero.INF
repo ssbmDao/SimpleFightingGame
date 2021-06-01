@@ -1,0 +1,51 @@
+!startx 65
+!close 20
+
+!max_life 65
+!max_super 91
+!super_amt 90
+
+=dash=
+!type 2
+!momentum 2
+=end=
+
+!cancelcount 5
+!cancel 0 1
+!cancel 1 2
+!cancel 2 3
+!cancel 3 4
+!cancel 4 5
+
+!hitswap A 509 1
+!hitswap B 509 1
+!hitswap C 509 1
+!hitswap D 506 1
+!hitswap E 509 1
+!hitswap F 509 1
+!hitswap L 509 1
+!hitswap N 509 1
+!hitswap N 511 2
+!hitswap Q 509 1
+!hitswap R 509 1
+!hitswap V 509 1
+!hitswap W 509 1
+!hitswap X 509 1
+
+!hitswap A 506 0
+!hitswap B 510 0
+!hitswap C 509 0
+!hitswap D 506 0
+!hitswap E 510 0
+!hitswap F 509 0
+!hitswap L 512 0
+!hitswap N 512 0
+!hitswap Q 518 0
+!hitswap R 518 0
+!hitswap V 512 0
+!hitswap W 512 0
+!hitswap X 512 0
+
+!hitswap 4 526 2
+=end=
+
