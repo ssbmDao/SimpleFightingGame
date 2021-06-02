@@ -10,9 +10,13 @@ config_version=4
 
 [application]
 
-config/name="Template"
+config/name="SimpleFightingGame"
 run/main_scene="res://Main_Game.tscn"
 config/icon="res://icon.png"
+
+[debug]
+
+shapes/collision/shape_color=Color( 1, 1, 1, 0.419608 )
 
 [input]
 
