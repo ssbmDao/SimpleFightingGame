@@ -3,8 +3,8 @@ extends KinematicBody2D
 export var WALK_SPEED = 100
 export var DASH_SPEED = 500
 export var player_number : int
-var movement = Vector2.ZERO
-var controll_inputs = {}
+var movement = Vector2.ZERO #2D Vector
+var control_inputs = {}
 var facing = "right"
 onready var anim = $AnimationPlayer
 onready var sprite = $Sprite
@@ -29,28 +29,28 @@ func _process(delta):
 func animates_player():
 	if state == STATE.FREE:
 		if movement != Vector2.ZERO:
-			if (facing == "left" && controll_inputs.left) || (facing == "right" && controll_inputs.right):
+			if (facing == "left" && control_inputs.left) || (facing == "right" && control_inputs.right):
 				anim.play("walk")
 			else:
 				anim.play_backwards("walk")
 		else:
 			# Play idle animation
 			anim.play("idle")
-		if controll_inputs.punch:
+		if control_inputs.punch:
 			state = STATE.ATTACK
 			anim.play("punch")
 			yield(anim, "animation_finished")
 			state = STATE.FREE
-		if controll_inputs.kick:
+		if control_inputs.kick:
 			state = STATE.ATTACK
 			anim.play("kick")
 			yield(anim, "animation_finished")
 			state = STATE.FREE
-		if controll_inputs.block:
+		if control_inputs.block:
 			state = STATE.GUARD
 			anim.play("block")
 	if state == STATE.GUARD:
-		if controll_inputs.block_release:
+		if control_inputs.block_release:
 			anim.play("idle")
 			state = STATE.FREE
 			
@@ -70,7 +70,7 @@ func look_direction():
 func player_input():
 	match player_number:
 		1:
-			controll_inputs = {
+			control_inputs = {
 				"left": Input.is_action_pressed("p1_left"),
 				"right": Input.is_action_pressed("p1_right"),
 				"punch": Input.is_action_just_pressed("p1_punch"),
@@ -79,7 +79,7 @@ func player_input():
 				"block_release": Input.is_action_just_released("p1_block")
 			}
 		2:
-			controll_inputs = {
+			control_inputs = {
 				"left": Input.is_action_pressed("p2_left"),
 				"right": Input.is_action_pressed("p2_right"),
 				"punch": Input.is_action_just_pressed("p2_punch"),
@@ -94,9 +94,11 @@ func player_input():
 
 func player_movement():
 	if state == STATE.FREE:
-		if controll_inputs.right:
+		if control_inputs.right && control_inputs.left:
+			movement.x = 0
+		elif control_inputs.right:
 			movement.x = WALK_SPEED
-		elif controll_inputs.left:
+		elif control_inputs.left:
 			movement.x = -WALK_SPEED
 		else:
 			movement.x = 0

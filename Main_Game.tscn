@@ -9,5 +9,5 @@ position = Vector2( 212.952, 479.937 )
 player_number = 1
 
 [node name="SubZero2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 760.013, 478.225 )
+position = Vector2( 303.384, 479.285 )
 player_number = 2
