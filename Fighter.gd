@@ -51,12 +51,6 @@ func animates_player():
 		if control_inputs.block_release:
 			anim.play("idle")
 			state = STATE.FREE
-			
-
-# Allows us to generalize characters and not worry about sprite facing.
-func change_direction():
-	scale.x = -1
-	facing_right = !facing_right
 
 
 # To share the same code for each player we have this function to determine
