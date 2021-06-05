@@ -5,9 +5,9 @@
 [node name="Main_Game" type="Node2D"]
 
 [node name="SubZero" parent="." instance=ExtResource( 2 )]
-position = Vector2( 212.952, 479.937 )
+position = Vector2( 101.828, 216.158 )
 player_number = 1
 
 [node name="SubZero2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 303.384, 479.285 )
+position = Vector2( 347.16, 215.506 )
 player_number = 2
